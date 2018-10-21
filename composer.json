@@ -70,6 +70,34 @@
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme"
+	  ],
+	  "web/app/plugins/{$name}/": [
+	  	"type:wordpress-plugin",
+	  	"wpackagist-plugin/quiz-maker"
+	  ],
+	  "web/app/plugins/{$name}/": [
+	  	"type:wordpress-plugin",
+	  	"wpackagist-plugin/watu"
+	  ],
+	  "web/app/plugins/{$name}/": [
+	  	"type:wordpress-plugin",
+	  	"wpackagist-plugin/namaste-lms"
+	  ],
+	  "web/app/plugins/{$name}/": [
+	  	"type:wordpress-plugin",
+	  	"wpackagist-plugin/unilms"
+	  ],
+	  "web/app/plugins/{$name}/": [
+	  	"type:wordpress-plugin",
+	  	"wpackagist-plugin/learnpress"
+	  ],
+	  "web/app/plugins/{$name}/": [
+	  	"type:wordpress-plugin",
+	  	"wpackagist-plugin/lifterlms"
+	  ],
+	  "web/app/plugins/{$name}/": [
+	  	"type:wordpress-plugin",
+	  	"wpackagist-plugin/learnpress-import-export"
 	  ]
 	},
 	"dropin-paths": {
