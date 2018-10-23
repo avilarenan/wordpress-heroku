@@ -41,6 +41,10 @@
 	"wpackagist-plugin/learnpress-import-export": "3.0.1",
 	"wpackagist-plugin/all-in-one-seo-pack": "2.4.4",
 	"wpackagist-plugin/nginx-helper": "1.9.10",
+	"wpackagist-plugin/maintenance": "3.6.1",
+	"wpackagist-plugin/cmp-coming-soon-maintenance": "2.8.9.1",
+	"wpackagist-plugin/lj-maintenance-mode": "2.4.3",
+	"wpackagist-plugin/wp-maintenance-mode": "2.2.1",
 	"wpackagist-plugin/sendgrid-email-delivery-simplified": "1.11.7",
 	"wpackagist-plugin/coming-soon": "5.0.20",
 	"wpackagist-theme/lyampe": "1.0.0",
@@ -104,7 +108,23 @@
 		"web/app/plugins/{$name}/": [
 	  	"type:wordpress-plugin",
 	  	"wpackagist-plugin/coming-soon"
-	  ],
+		],
+		"web/app/plugins/{$name}/": [
+	  	"type:wordpress-plugin",
+	  	"wpackagist-plugin/maintenance"
+		],
+		"web/app/plugins/{$name}/": [
+	  	"type:wordpress-plugin",
+	  	"wpackagist-plugin/wp-maintenance-mode"
+		],
+		"web/app/plugins/{$name}/": [
+	  	"type:wordpress-plugin",
+	  	"wpackagist-plugin/lj-maintenance-mode"
+		],
+		"web/app/plugins/{$name}/": [
+	  	"type:wordpress-plugin",
+	  	"wpackagist-plugin/cmp-coming-soon-maintenance"
+		],
 	  "web/app/plugins/{$name}/": [
 	  	"type:wordpress-plugin",
 	  	"wpackagist-plugin/watu"
