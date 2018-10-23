@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9613699cddafe44ef8bbff136ff1efc8",
+    "content-hash": "0f58bc5b1acaca5ea2e63f162b488447",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3913,6 +3913,26 @@
             "homepage": "https://wordpress.org/plugins/wordfence/"
         },
         {
+            "name": "wpackagist-theme/blue-construction",
+            "version": "1.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/blue-construction/",
+                "reference": "1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/blue-construction.1.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/blue-construction/"
+        },
+        {
             "name": "wpackagist-theme/creativ-kids-education",
             "version": "1.0",
             "source": {
@@ -3971,6 +3991,26 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/minimalisticky/"
+        },
+        {
+            "name": "wpackagist-theme/softpoint",
+            "version": "1.0.8",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/softpoint/",
+                "reference": "1.0.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/softpoint.1.0.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/softpoint/"
         }
     ],
     "packages-dev": [
