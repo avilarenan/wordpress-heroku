@@ -42,6 +42,7 @@
 	"wpackagist-plugin/all-in-one-seo-pack": "2.4.4",
 	"wpackagist-plugin/nginx-helper": "1.9.10",
 	"wpackagist-plugin/sendgrid-email-delivery-simplified": "1.11.7",
+	"wpackagist-plugin/coming-soon": "5.0.20",
 	"wpackagist-theme/lyampe": "1.0.0",
 	"wpackagist-theme/creativ-kids-education": "1.0",
 	"wpackagist-theme/minimalisticky": "1.7",
@@ -99,6 +100,10 @@
 	  "web/app/plugins/{$name}/": [
 	  	"type:wordpress-plugin",
 	  	"wpackagist-plugin/quiz-maker"
+		],
+		"web/app/plugins/{$name}/": [
+	  	"type:wordpress-plugin",
+	  	"wpackagist-plugin/coming-soon"
 	  ],
 	  "web/app/plugins/{$name}/": [
 	  	"type:wordpress-plugin",
