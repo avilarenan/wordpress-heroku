@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f58bc5b1acaca5ea2e63f162b488447",
+    "content-hash": "e450d6344c87a5dc676397e67ed9e665",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3673,6 +3673,46 @@
             "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
         },
         {
+            "name": "wpackagist-plugin/cmp-coming-soon-maintenance",
+            "version": "2.8.9.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cmp-coming-soon-maintenance/",
+                "reference": "tags/2.8.9.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cmp-coming-soon-maintenance.2.8.9.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cmp-coming-soon-maintenance/"
+        },
+        {
+            "name": "wpackagist-plugin/coming-soon",
+            "version": "5.0.20",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/coming-soon/",
+                "reference": "tags/5.0.20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/coming-soon.5.0.20.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/coming-soon/"
+        },
+        {
             "name": "wpackagist-plugin/debug-bar",
             "version": "0.9",
             "source": {
@@ -3751,6 +3791,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/lifterlms/"
+        },
+        {
+            "name": "wpackagist-plugin/lj-maintenance-mode",
+            "version": "2.4.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/lj-maintenance-mode/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/lj-maintenance-mode.zip?timestamp=1512041176",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/lj-maintenance-mode/"
+        },
+        {
+            "name": "wpackagist-plugin/maintenance",
+            "version": "3.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/maintenance/",
+                "reference": "tags/3.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/maintenance.3.6.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/maintenance/"
         },
         {
             "name": "wpackagist-plugin/namaste-lms",
@@ -3911,6 +3991,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordfence/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-maintenance-mode",
+            "version": "2.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-maintenance-mode/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-maintenance-mode.zip?timestamp=1531728264",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-maintenance-mode/"
         },
         {
             "name": "wpackagist-theme/blue-construction",
